@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #b8cffc;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: middle;
+  padding: 25px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #b8cffc;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#existing-trainee">Existing Trainee</a>
+  <a href="#job-specification">Job Specification</a>
+  <a href="#job-application">Job Application</a>
+  <a href="#course-links">Course Links</a>
+  <a href="#contact">Contact Us</a>
+  
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #3474eb;
+  padding: 10px;
+
+  font-size: 25px;
+  
+  
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+ 
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #3474eb;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#borderimg { 
+  border: 9px solid transparent;
+  padding: 12px;
+}
+</style>
+</head>
+<body>
+
+
+</body>
+</html>
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+<p><img src="logo.png"><center><h1>Hot Beans Website</h1></center></p>
+</div>
+
+<div class="row">
+  <div class="column 1" style="background-color:#b8cffc;">Another example of a website structure is linear website structure
+
+<h1>The straightforward website layout of linear-style sites can be just what the doctor prescribed in some circumstances. 
+However, sites with fewer pages can profit from this low-maintenance choice. 
+Not every site will be as simple and able to employ this kind.The straightforward website layout of linear-style sites can be just what the doctor prescribed in some circumstances. 
+However, sites with fewer pages can profit from this low-maintenance choice. 
+Not every site will be as simple and able to employ this kind.</h1>
+</div>
+  <div class="column 2" style="background-color:#c8d9fa;">Column 2</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

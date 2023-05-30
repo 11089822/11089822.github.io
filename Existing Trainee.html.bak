@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #b8cffc;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: middle;
+  padding: 25px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #b8cffc;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#existing-trainee">Existing Trainee</a>
+  <a href="#job-specification">Job Specification</a>
+  <a href="#job-application">Job Application</a>
+  <a href="#course-links">Course Links</a>
+  <a href="#contact">Contact Us</a>
+  
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #3474eb;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #3474eb;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p><img src="logo3.png"></p>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#b8cffc;"><h3>Name of Employee</h3><p><img src="employers4.png"></p></div>
+
+  <div class="column" style="background-color:#cce6ff;"><h3>Finding your Trainee</h3>These trainees will train you to find your job. At Hot Beans, our trainees will give you 
+learning materials, give specific teaching methods and help you train to complete your courses for your future career. You can find out more about these trainees by choosing a course & job specification. 
+When you select a job or course, the trainee will train you based on your chosen course. Find out what these trainees do.</div>
+
+  <div class="column" style="background-color:#ffffff;"><h3>What do these trainees do?</h3>
+  <h5>Jackson Flores - Childcare</h5><h5><a href="j.flores.hotbeans@gmail.com">j.flores.hotbeans@gmail.com</a></h5>
+  <h5>Gregory Alexander - Software Engineer / IT</h5><h5><a href="g.alexander.hotbeans@gmail.com">g.alexander.hotbeans@gmail.com</a></h5>
+  <h5>Bryce Ken - Designer</h5><h5><a href="b.houstonken.hotbeans@gmail.com">b.houstonken.hotbeans@gmail.com</a></h5>
+  <h5>Anna Kimberly - Haistylist and Makeup Artist</h5><h5><a href="a.kimberly.hotbeans@gmail.com">a.kimberly.hotbeans@gmail.com</a></h5>
+  <h5>Morgan Carsten - Veternarian</h5><h5><a href="m.carsten.hotbeans@gmail.com">m.carsten.hotbeans@gmail.com</a></h5>
+  <h5>Sarah Bethany - Social Media Career</h5><h5><a href="s.bethany.hotbeans@gmail.com">s.bethany.hotbeans@gmail.com</a></h5>
+  <h5>Catherine Jones - Film Director</h5><h5><a href="c.jones.hotbeans@gmail.com">c.jones.hotbeans@gmail.com</a></h5>
+  <h5>Sam Liam - Social Media Career</h5><h5><a href="s.bethany.hotbeans@gmail.com">s.bethany.hotbeans@gmail.com</a></h5>
+</div>
+
+<div class="footer"style="background-color:#3474eb;">
+  <h2>Follow us on Social Media</h2>
+  <a href="https://www.instagram.com/"><img src="instagram.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.twitter.com/"><img src="twitter.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.tiktok.com/"><img src="tiktok.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.youtube.com/"><img src="youtube.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+
+</div>
+
+</body>
+</html>

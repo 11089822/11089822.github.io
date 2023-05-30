@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #b8cffc;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: middle;
+  padding: 25px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #b8cffc;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="Home.html">Home</a>
+  <a href="Trainee.html">Existing Trainee</a>
+  <a href="Specification.html">Job Specification</a>
+  <a href="Application.html">Job Application</a>
+  <a href="Courses.html">Course Links</a>
+  <a href="Contact.html">Contact Us</a>
+  
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #b8cffc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #b8cffc;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p><img src="logo8.png"></p>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Arial", sans-serif;
+}
+
+.header {
+  background-color: #3474eb;
+  color: #ffffff;
+  padding: 35px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 19px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #b8cffc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li>IT/Digital Media Web Development Level 1</li>
+    <li>IT/Digital Media Web Development Level 2</li>
+    <li>IT/Digital Media Web Development Level 3</li>
+    <li>IT/Digital Media Web Development Level 4</li>
+    <li>IT/Digital Media Web Development Level 5</li>
+    <li>IT/Digital Media Web Development Level 6</li>
+    <li>IT/Digital Media Web Development Level 7</li>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1>Find a course that you wish to choose</h1>
+    <p>At Hot Beans, we provide various courses for you. The levels range
+  from Level 1 to 7. We will then ask you whether you want your registration to be processed online or on-site after you have chosen
+a level range from 1 to 7. If you made your decision online, 
+we will set up a conference and invite you to attend using Zoom.</p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Why pick a web development course?</h2>
+      <p>You have the chance to use web development to artistically convey yourself online. As you develop your web development abilities, test out any ideas you may have. It's enjoyable and inventive to work on websites.
+	  
+</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<div class="footer"style="background-color:#b8cffc;">
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+
+<div class="footer"style="background-color:#b8cffc;">
+
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+
+<div class="footer"style="background-color:#b8cffc;">
+
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+
+<div class="footer"style="background-color:#b8cffc;">
+
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+
+<div class="footer"style="background-color:#b8cffc;">
+
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+
+<div class="footer"style="background-color:#b8cffc;">
+
+
+</div>
+
+</body>
+</html>
+
+
+<div class="footer"style="background-color:#3474eb;">
+  <h2>Follow us on Social Media</h2>
+  <a href="https://www.instagram.com/"><img src="instagram.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.twitter.com/"><img src="twitter.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.tiktok.com/"><img src="tiktok.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="https://www.youtube.com/"><img src="youtube.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+
+</div>
+
+</body>
+</html>
